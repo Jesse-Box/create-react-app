@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+
+function myFunction () {
+  return async()
+}
 
 function App() {
 	return (
@@ -9,6 +14,7 @@ function App() {
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
+        <button onClick={useEffect(() => myFunction())}>Trigger Error</ button>
 				<a
 					className="App-link"
 					href="https://reactjs.org"
