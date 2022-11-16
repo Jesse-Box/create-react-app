@@ -9,7 +9,6 @@ function App() {
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
-				<button onClick={methodDoesNotExist}>Break the world</button>
 				<a
 					className="App-link"
 					href="https://reactjs.org"
