@@ -10,7 +10,7 @@ module.exports = {
 			authToken: process.env.SENTRY_AUTH_TOKEN,
 			org: 'jesse-box',
 			project: 'javascript-react',
-			release: process.env.SENTRY_RELEASE,
+			release: process.env.RELEASE,
 
 			// other SentryWebpackPlugin configuration
 			include: '.',
