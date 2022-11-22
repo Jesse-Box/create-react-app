@@ -9,7 +9,7 @@ module.exports = function override(config, env) {
 			// see https://docs.sentry.io/product/cli/configuration/ for details
 			org: 'jesse-box',
 			project: 'javascript-react',
-			include: './dist',
+			include: './build',
 			authToken: process.env.SENTRY_AUTH_TOKEN,
 		})
 	);
